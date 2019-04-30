@@ -1,0 +1,16 @@
+#第二种配置方式,端口前面必须加空格.只需要一个,尽量使用.yml了
+server:
+  port: 80
+  #context-path: /onyx2
+
+#罩杯
+#cupSize: C
+#age: 18
+#配置文件中使用当前配置
+#content: "cupSize: ${cupSize}, age: ${age}"
+
+#第二种配置文件,新建了一个onyxProperties.java类,对应两个属性,对应前面的前缀 prefix
+#推荐使用这种方式进行配置.
+onyx:
+   age: 18
+   cupSize: C

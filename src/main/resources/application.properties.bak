@@ -1,0 +1,3 @@
+server.port=8081
+#项目的前面的路径
+server.context-path=/zhaojun
